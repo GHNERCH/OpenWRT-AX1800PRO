@@ -1,6 +1,12 @@
 # OpenWRT-CI
 云编译OpenWRT固件
 
+Forked from VIKINGYFY/OpenWRT-CI
+
+根据个人喜好，增删了插件和设置，这是极少数的同时满足nss+无线中继的优秀项目！
+增加插件：openclash，samba4，alist三大实用软件
+
+
 官方版：
 https://github.com/immortalwrt/immortalwrt.git
 
