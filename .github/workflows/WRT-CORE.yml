@@ -222,11 +222,9 @@ jobs:
           tag_name: ${{env.WRT_CONFIG}}_${{env.WRT_VER}}_${{env.WRT_DATE}}
           files: ./wrt/upload/*.*
           body: |
-            这是个平台固件包，内含多个设备！
-            请注意选择你需要的设备固件！
-            不要问，刷就完事了！
+            #Forked from VIKINGYFY/OpenWRT-CI
 
-            全系带开源硬件加速，别问了！
+根据个人喜好，增删了插件和设置，这是极少数的同时满足nss+无线中继的优秀项目！ 增加插件：openclash，samba4，alist三大实用软件
 
             源码：${{env.WRT_REPO}}
             分支：${{env.WRT_BRANCH}}
